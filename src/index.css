@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,7 +18,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+pre {
+  white-space: pre-wrap; /* Allows text to wrap */
+  overflow-x: auto; /* Enables horizontal scrolling if text overflows */
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,7 +33,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
