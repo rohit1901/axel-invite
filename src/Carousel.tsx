@@ -1,10 +1,10 @@
 import Pic1 from './assets/avatar.jpeg';
-import Pic2 from './assets/2.jpg';
-import Pic3 from './assets/3.jpg';
-import Pic4 from './assets/4.jpg';
-import Pic5 from './assets/5.jpg';
-import Pic6 from './assets/6.jpg';
-import Pic7 from './assets/7.jpg';
+import Pic2 from './assets/2.jpeg';
+import Pic3 from './assets/3.jpeg';
+import Pic4 from './assets/4.jpeg';
+import Pic5 from './assets/5.jpeg';
+import Pic6 from './assets/6.jpeg';
+import Pic7 from './assets/7.jpeg';
 
 export const Carousel = () => {
     return (
