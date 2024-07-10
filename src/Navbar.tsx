@@ -23,7 +23,7 @@ export const ConfettiEffect = ({explode, setExplode}: ConfettiEffectProps) => {
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [explode, setExplode] = useState(false);
-    const header = "Die Party findet am 12.07.2024 um 14 Uhr statt.";
+    const header = "Die Party findet am 09.08.2024 um 18 Uhr statt.";
     return (
         <div className="navbar bg-base-100">
             <ConfettiEffect explode={explode} setExplode={setExplode}/>
