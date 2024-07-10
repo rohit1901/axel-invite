@@ -8,7 +8,7 @@ import Pic7 from './assets/7.jpeg';
 
 export const Carousel = () => {
     return (
-        <div className="carousel carousel-center bg-neutral rounded-box space-x-4 p-4 max-w-screen-2xl">
+        <div className="carousel carousel-center bg-neutral rounded-box space-x-4 p-4 max-w-screen-2xl touch-auto">
             <div className="carousel-item">
                 <img
                     src={Pic1}

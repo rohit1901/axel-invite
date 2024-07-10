@@ -1,4 +1,4 @@
-import Avatar from "./assets/avatar.jpeg"
+import Avatar from "./assets/avatar.png"
 import MapIcon from "./assets/map.svg"
 import {useEffect, useState} from "react";
 import {Modal} from "./Modal.tsx";
