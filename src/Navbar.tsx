@@ -1,15 +1,34 @@
 import Avatar from "./assets/avatar.jpeg"
 import MapIcon from "./assets/map.svg"
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Modal} from "./Modal.tsx";
+import ConfettiExplosion from "react-confetti-explosion";
+type ConfettiEffectProps = {
+    explode: boolean;
+    setExplode: (explode: boolean) => void;
+};
+export const ConfettiEffect = ({explode, setExplode}: ConfettiEffectProps) => {
+    useEffect(() => {
+        if (explode) setTimeout(() => setExplode(false), 3000);
+    }, [explode, setExplode]);
+    if (explode) return <ConfettiExplosion {...{
+        force: 0.8,
+        duration: 3000,
+        particleCount: 250,
+        width: 1600,
+    }} />;
+    return null;
+}
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [explode, setExplode] = useState(false);
     const header = "Die Party findet am 12.07.2024 um 14 Uhr statt.";
     return (
         <div className="navbar bg-base-100">
+            <ConfettiEffect explode={explode} setExplode={setExplode}/>
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">AXEL MÜLLER</a>
+                <button className="btn btn-accent text-xl" onClick={() => setExplode(!explode)}>AXEL MÜLLER 🎉 </button>
             </div>
             <div className="flex-none gap-2">
                 <div className="btn btn-ghost" role="button" onClick={() => setIsOpen(!isOpen)}>
