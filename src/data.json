@@ -1,0 +1,58 @@
+{
+  "theme": "bumblebee",
+  "headline": "Aloha, Arbeit Adieu! 🌴 Komm zur Renten-Fiesta, wo die Cocktails fließen und die Sorgen schmelzen! 🍹🕺 Du bist VIP (Very Important Pensionär)! 🏖️😎",
+  "navbar": {
+    "title": "AXEL MÜLLER \uD83C\uDF89",
+    "effect": true,
+    "menu": {
+      "img": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/avatar.png",
+      "items": [
+        {
+          "text": "Der Weg",
+          "url": "#"
+        },
+        {
+          "text": "Kontaktiere mich",
+          "url": "mailto:aml1746@googlemail.com"
+        }
+      ]
+    },
+    "popup": {
+      "headline": "Die Party findet in Wiedemar bei Thomas statt. Die genaue Adresse lautet:",
+      "subheadline": "Thomas Ludwig Gaststätte - Radefelder Landstraße 1, 04509 Wiedemar, Germany",
+      "map": true
+    }
+  },
+  "carousel": {
+    "items": [
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/1.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/2.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/3.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/4.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/5.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/6.jpeg"
+      },
+      {
+        "text": "",
+        "url": "https://d28xxvmjntstuh.cloudfront.net/axel-invite/7.jpeg"
+      }
+    ]
+  }
+}
