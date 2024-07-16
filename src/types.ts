@@ -21,8 +21,8 @@ export type CarouselType = {
   items: ItemType[];
 };
 export type SchemaType = {
-    theme: string;
-    headline: string;
-    navbar: NavbarType;
-    carousel: CarouselType;
-}
+  theme: string;
+  headline: string;
+  navbar: NavbarType;
+  carousel: CarouselType;
+};
